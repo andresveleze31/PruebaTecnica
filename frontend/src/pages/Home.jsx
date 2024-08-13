@@ -32,7 +32,7 @@ const Home = () => {
         <LogoutButton />
       </div>
 
-      <div className="container grid grid-cols-[2fr,1fr]">
+      <div className="container grid md:grid-cols-[2fr,1fr] gap-32 md:gap-0 ">
         <div className="h-[calc(100vh - 100px)] border-r pt-5 pr-5 ">
           <h2 className="text-2xl font-bold">
             Sesion 5 - Clase: Programacion Avanzada

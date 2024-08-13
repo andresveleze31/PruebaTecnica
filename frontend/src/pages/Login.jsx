@@ -20,8 +20,8 @@ const Login = () => {
 
   return (
     <div className="h-screen w-full">
-      <div className="h-screen w-full grid grid-cols-[2fr,3fr] ">
-        <div className="border-r bg-slate-900 flex flex-col justify-between">
+      <div className="h-screen w-full grid md:grid-cols-[2fr,3fr]  ">
+        <div className="hidden md:block border-r bg-slate-900 flex flex-col justify-between">
           <img
             alt=""
             src="https://images.unsplash.com/photo-1605106702734-205df224ecce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
